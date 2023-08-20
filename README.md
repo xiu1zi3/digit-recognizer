@@ -1,6 +1,6 @@
 kaggle digit-recognizer CNN implementation
 
-[toc]
+
 
 ## Environment
 python 3.9.12
@@ -46,4 +46,4 @@ digit-recognizer.
 - The prediction is stored in `output` directory.
 - The trianed model is stored in `output` directory.
 
-You can ajust the hyper parameters. Or you can choose other loss function and optimizer.
+You can ajust the hyper parameters or choose other loss functions and optimizers.
