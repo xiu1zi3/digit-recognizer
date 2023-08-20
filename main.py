@@ -174,7 +174,7 @@ print('\nTest Accuracy (Overall): %2d%% (%2d/%2d)' % (
     np.sum(class_correct), np.sum(class_total)))
 
 # 加载保存的模型
-model = torch.load("model-test/CNN.pt", map_location=torch.device('cpu'))
+model = torch.load("model/CNN.pt", map_location=torch.device('cpu'))
 
 if torch.cuda.is_available():
     model.cuda()
