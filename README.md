@@ -42,9 +42,9 @@ digit-recognizer.
 │  └─submission.csv
 └─main.py
 ```
-
+- The trianed model is stored in `model` directory.
 - The prediction is stored in `output` directory.
-- The trianed model is stored in `output` directory.
+
 
 ### hyper parameters
 
@@ -59,4 +59,6 @@ batch size: 32
 epochs:20
 
 dropout:0.25
+
+
 You can ajust the hyper parameters or choose other loss functions and optimizers.
