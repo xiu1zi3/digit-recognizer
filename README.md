@@ -46,4 +46,17 @@ digit-recognizer.
 - The prediction is stored in `output` directory.
 - The trianed model is stored in `output` directory.
 
+### hyper parameters
+
+loss function: CrossEntropyLoss
+
+optimizer: Adam
+
+learnig rate: 0.003
+
+batch size: 32
+
+epochs:20
+
+dropout:0.25
 You can ajust the hyper parameters or choose other loss functions and optimizers.
