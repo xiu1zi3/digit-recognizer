@@ -103,7 +103,7 @@ criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=0.003)
 
 # 训练模型
-epochs = 1
+epochs = 20
 valid_loss_min = np.Inf
 class_correct = list(0. for i in range(10))
 class_total = list(0. for i in range(10))
