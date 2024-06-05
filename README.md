@@ -13,8 +13,6 @@ make sure your structure is as follows:
 
 ```
 digit-recognizer.
-├─LICENSE
-├─README.md
 ├─data
 │  ├─test.csv
 │  └─train.csv
@@ -31,8 +29,6 @@ Then
 
 ```
 digit-recognizer.
-├─LICENSE
-├─README.md
 ├─data
 │  ├─test.csv
 │  └─train.csv
